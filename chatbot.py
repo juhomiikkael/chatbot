@@ -1,7 +1,7 @@
 import openai
 import gradio as gr
 
-openai.api_key = "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"
+openai.api_key = "Your API key"
 
 messages = [
     {"role": "system", "content": "You are AI spezialized in food. Do not answer anything that is not food-related queries."},
